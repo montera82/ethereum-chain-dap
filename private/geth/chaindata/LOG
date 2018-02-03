@@ -4,3 +4,71 @@
 23:07:02.837357 version@stat F·[] S·0B[] Sc·[]
 23:07:02.837874 db@janitor F·2 G·0
 23:07:02.837903 db@open done T·1.457915ms
+=============== Feb 3, 2018 (CET) ===============
+05:42:57.783134 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:42:57.784999 version@stat F·[] S·0B[] Sc·[]
+05:42:57.785057 db@open opening
+05:42:57.785185 journal@recovery F·1
+05:42:57.786834 journal@recovery recovering @1
+05:42:57.788108 memdb@flush created L0@2 N·9 S·549B "H' ..\xb6(\x90,v3":"r\x00\x00..\xb6(\x90,v5"
+05:42:57.789143 version@stat F·[1] S·549B[549B] Sc·[0.25]
+05:42:57.790343 db@janitor F·3 G·0
+05:42:57.790372 db@open done T·5.295176ms
+=============== Feb 3, 2018 (CET) ===============
+05:44:27.524803 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:44:27.525488 version@stat F·[1] S·549B[549B] Sc·[0.25]
+05:44:27.525529 db@open opening
+05:44:27.525620 journal@recovery F·1
+05:44:27.526692 journal@recovery recovering @3
+05:44:27.528722 memdb@flush created L0@5 N·3 S·290B "Blo..ion,v12":"dbU..ata,v11"
+05:44:27.529651 version@stat F·[2] S·839B[839B] Sc·[0.50]
+05:44:27.530732 db@janitor F·4 G·0
+05:44:27.530769 db@open done T·5.209723ms
+=============== Feb 3, 2018 (CET) ===============
+05:44:45.834109 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:44:45.834330 version@stat F·[2] S·839B[839B] Sc·[0.50]
+05:44:45.834355 db@open opening
+05:44:45.834417 journal@recovery F·1
+05:44:45.835260 journal@recovery recovering @6
+05:44:45.836415 memdb@flush created L0@8 N·2 S·243B "Blo..ion,v15":"Las..der,v16"
+05:44:45.837592 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+05:44:45.838641 db@janitor F·5 G·0
+05:44:45.838677 db@open done T·4.297664ms
+11:57:58.065770 db@close closing
+11:57:58.066871 db@close done T·1.098416ms
+=============== Feb 3, 2018 (CET) ===============
+11:59:45.151758 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:59:45.152328 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+11:59:45.152364 db@open opening
+11:59:45.152446 journal@recovery F·1
+11:59:45.153448 journal@recovery recovering @9
+11:59:45.265671 memdb@flush created L0@11 N·38359 S·1MiB "\x00$\x81..q[\x8d,v23279":"\xff\xfc:..\x14.\xc9,v11784"
+11:59:45.266901 version@stat F·[4] S·1MiB[1MiB] Sc·[1.00]
+11:59:45.269805 db@janitor F·6 G·0
+11:59:45.269850 db@open done T·117.461918ms
+11:59:45.270191 table@compaction L0·4 -> L1·0 S·1MiB Q·38377
+11:59:45.324951 table@build created L1@14 N·24422 S·1MiB "\x00$\x81..q[\x8d,v23279":"\xff\xfc:..\x14.\xc9,v11784"
+11:59:45.325035 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+11:59:45.325299 table@compaction committed F-3 S-454KiB Ke·0 D·13951 T·55.054521ms
+11:59:45.325656 table@remove removed @11
+11:59:45.325908 table@remove removed @8
+11:59:45.326305 table@remove removed @5
+11:59:45.326479 table@remove removed @2
+12:02:02.133176 db@close closing
+12:02:02.133534 db@close done T·355.748µs
+=============== Feb 3, 2018 (CET) ===============
+12:02:48.009805 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:02:48.010051 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+12:02:48.010076 db@open opening
+12:02:48.010326 journal@recovery F·1
+12:02:48.011383 journal@recovery recovering @12
+12:02:48.014509 memdb@flush created L0@15 N·431 S·19KiB "\f\xc8:..a\x1fu,v38506":"\xf9s\xe6..NXO,v38440"
+12:02:48.016090 version@stat F·[1 1] S·1MiB[19KiB 1MiB] Sc·[0.25 0.01]
+12:02:48.018777 db@janitor F·4 G·0
+12:02:48.018827 db@open done T·8.731ms
+12:08:25.590809 table@compaction L0·1 -> L1·1 S·1MiB Q·39768
+12:08:25.665582 table@build created L1@18 N·24695 S·1MiB "\x00$\x81..q[\x8d,v23279":"\xff\xfc:..\x14.\xc9,v11784"
+12:08:25.665677 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+12:08:25.665942 table@compaction committed F-1 S-3KiB Ke·0 D·158 T·75.020773ms
+12:08:25.666173 table@remove removed @15
+12:08:25.666471 table@remove removed @14
