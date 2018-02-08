@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "ethereumjs-testrpc": "^6.0.3",
-    "truffle": "^3.4.5"
+    "solc": "0.4.19",
+    "truffle": "^3.4.5",
+    "web3": "0.20.0"
   }
 }
